@@ -12,7 +12,7 @@ Bankr skill for real-time Robinhood Chain community intelligence.
   <img src="https://img.shields.io/badge/Bankr-Skill-blue?style=flat-square" alt="Bankr Skill"/>
   <img src="https://img.shields.io/badge/Chain-Robinhood%20Chain-green?style=flat-square" alt="Robinhood Chain"/>
   <img src="https://img.shields.io/badge/Status-Early%20Build-orange?style=flat-square" alt="Status"/>
-  <img src="https://img.shields.io/badge/License-No%20License-lightgrey?style=flat-square" alt="License"/>
+<img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License"/>
   <img src="https://img.shields.io/badge/Built%20by-@gastonlcy-black?style=flat-square" alt="Built by"/>
 </p>
 
