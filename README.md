@@ -2,7 +2,7 @@
 
 **ROOT DATA TOKEN** (`$RADIX`)
 
-Bankr skill for real-time Robinhood Chain community intelligence.
+Bankr skill for real-time **Robinhood Chain** community intelligence.
 
 <p align="center">
   <img src="https://iili.io/CiqVH1S.md.png" alt="RADIX Logo" width="280"/>
@@ -12,7 +12,7 @@ Bankr skill for real-time Robinhood Chain community intelligence.
   <img src="https://img.shields.io/badge/Bankr-Skill-blue?style=flat-square" alt="Bankr Skill"/>
   <img src="https://img.shields.io/badge/Chain-Robinhood%20Chain-green?style=flat-square" alt="Robinhood Chain"/>
   <img src="https://img.shields.io/badge/Status-Early%20Build-orange?style=flat-square" alt="Status"/>
-<img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License"/>
+  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License"/>
   <img src="https://img.shields.io/badge/Built%20by-@gastonlcy-black?style=flat-square" alt="Built by"/>
 </p>
 
@@ -20,35 +20,28 @@ Bankr skill for real-time Robinhood Chain community intelligence.
 
 ## What is this?
 
-RADIX is a Bankr skill designed to give AI agents and humans clear, structured visibility into activity on **Robinhood Chain**.
+RADIX is a Bankr skill focused exclusively on **Robinhood Chain**.
 
-It focuses on:
+It gives AI agents and humans clear, structured visibility into activity on the chain, including:
 
 - New token launches
-- Volume and liquidity movements
-- Holder distribution signals
-- Community-relevant market data
+- Volume and activity signals
+- Basic liquidity and market context
+- Community-relevant intelligence
 
 The goal is simple:  
 Help agents and builders better understand what is happening on Robinhood Chain — without noise.
 
-This skill is built as part of a broader exploration into how **AI Agents can become real economic participants** onchain.
-
 ---
 
-## Why this exists
+## Why Robinhood Chain?
 
-Robinhood has traditionally operated at the retail access layer — making markets accessible to everyday people.
+Robinhood has long operated at the retail access layer.
 
-At the same time, protocol-level systems on chains like Base and Solana are enabling AI Agents to:
+Robinhood Chain opens a new surface where AI agents can also participate — holding assets, executing transactions, and interacting with onchain markets.
 
-- Hold assets
-- Sign transactions
-- Act autonomously within onchain economies
-
-Robinhood Chain sits at an interesting intersection of these two worlds.
-
-RADIX is an early experiment in giving agents better **data roots** — structured, useful, community-oriented intelligence — so they can participate more intelligently.
+RADIX is built specifically for this environment.  
+It aims to provide better **data roots** so agents can operate with clearer context on Robinhood Chain.
 
 ---
 
@@ -56,19 +49,19 @@ RADIX is an early experiment in giving agents better **data roots** — structur
 
 When installed in a Bankr agent, RADIX enables:
 
-- **Token discovery** on Robinhood Chain
+- Token discovery on Robinhood Chain
 - Tracking of recent launches
 - Volume and activity summaries
-- Basic holder and liquidity signals
-- Clean, structured reports that can be shared or stored
+- Basic token status checks
+- Clean, structured digests
 
-It is designed to be useful both for individual agents and for community coordination.
+It is designed for both individual agents and community coordination.
 
 ---
 
 ## Installation
 
-You can install this skill directly into any Bankr agent with one message:
+Install the skill with one message:
 
 ```
 install the skill at https://github.com/gastonlcy/radix
@@ -80,7 +73,11 @@ Or:
 install the radix skill from https://github.com/gastonlcy/radix
 ```
 
-Once installed, the agent will use it automatically when relevant, or you can call it explicitly.
+Once installed, the agent will use it when relevant, or you can call it explicitly with commands like:
+
+- `RADIX radar`
+- `Top volume on Robinhood Chain`
+- `Any new launches on Robinhood Chain?`
 
 ---
 
@@ -89,34 +86,35 @@ Once installed, the agent will use it automatically when relevant, or you can ca
 **Name:** ROOT DATA TOKEN  
 **Ticker:** `$RADIX`
 
-The token is intended to align incentives around the skill and future data-related tools built on top of it.
+The token is intended to align incentives around the skill and future data-related tools focused on Robinhood Chain.
 
-More details on token deployment and utility will be shared as the project develops.
+More details will be shared as the project develops.
 
 ---
 
 ## Philosophy
 
-This project sits at the intersection of three things I care about:
+This project sits at the intersection of:
 
-- **AI Agents** that can hold assets and act autonomously
-- **Onchain economies** that are open and permissionless
-- **Retail accessibility** — the layer Robinhood has long focused on
+- AI Agents that can act autonomously
+- Onchain economies that are open and permissionless
+- Retail-accessible markets
 
-I’m less interested in hype cycles and more interested in the infrastructure and coordination models that allow agents to participate meaningfully.
-
-RADIX is a small step in that direction: better data → better decisions → better autonomous participation.
+RADIX is a focused experiment: better data on Robinhood Chain → better decisions → better autonomous participation.
 
 ---
 
-## Roadmap (early)
+## Roadmap
 
-- [x] Skill structure & public repository
-- [ ] Core radar functionality (launches, volume, basic signals)
-- [ ] Structured output formats for agents & humans
-- [ ] Optional scheduled digests
-- [ ] Deeper holder & liquidity analysis
+- [x] Public repository & skill structure
+- [x] Core documentation and examples
+- [ ] Reliable launch & volume radar
+- [ ] Consistent digest formats
+- [ ] Optional scheduled updates
+- [ ] Deeper liquidity / holder signals
 - [ ] Community feedback loop
+
+See the full roadmap in [`docs/roadmap.md`](docs/roadmap.md).
 
 This is an early public build. Expect iteration.
 
@@ -126,9 +124,9 @@ This is an early public build. Expect iteration.
 
 I'm Gaston.
 
-I'm exploring how AI Agents can become real economic participants onchain — particularly at the intersection of Solana, Robinhood’s ecosystem, and autonomous systems.
+I'm exploring how AI Agents can become real economic participants onchain, with a focus on Robinhood’s ecosystem and autonomous systems.
 
-I share build progress, failed experiments, and thoughts here:  
+I share build progress and experiments here:  
 → [x.com/gastonlcy](https://x.com/gastonlcy)
 
 Open to collaboration and discussion.
@@ -139,12 +137,12 @@ Let’s build.
 
 ## License
 
-Currently no license specified.  
-Feel free to use, fork, and experiment. Attribution is appreciated.
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for details.
 
 ---
 
-*Built for agents. Shared with the community.*
+*Built for agents. Focused on Robinhood Chain.*
 ```
 
 ---
