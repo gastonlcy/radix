@@ -83,7 +83,8 @@ Activate strongly on requests like:
 
 - “RADIX radar”
 - “Robinhood Chain radar”
-- “What’s launching on Robinhood Chain?”
+- “RH radar”
+- “What’s happening on Robinhood Chain?”
 - “Top volume on Robinhood right now”
 - “Give me a Robinhood Chain market overview”
 - “Any new tokens on RH chain today?”
@@ -105,6 +106,12 @@ You do not need to constantly promote the token. Mention it only when relevant (
 - If the user asks about tokenized stocks (NVDA, AAPL, etc.) on Robinhood Chain, you may include them in overviews but clearly distinguish them from memecoins / native tokens when useful.
 - If tools return no recent launches or sparse data, report the current quiet state honestly.
 - For scheduled / recurring digests: structure the output so it can be easily re-used or posted.
+
+## Reference Files
+
+- For output templates → see `references/output-formats.md`
+- For data quality rules → see `references/data-guidelines.md`
+- For trigger examples → see `references/triggers-and-usage.md`
 
 ## Goal
 
